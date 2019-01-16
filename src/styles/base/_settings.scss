@@ -4,15 +4,19 @@
 
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700|Staatliches&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700&subset=latin-ext');
 
 // Colors
-
+$green: #285943;
+$off-green: #8CD790;
+$light-green: #D7FFF1;
+$white: #F9F4F5;
 
 // Spacing
 $s-size: 1.2rem;
 $m-size: 1.6rem;
 $l-size: 3.2rem;
-$xl-size: 8.8rem;
+$xl-size: 7.5rem;
 
 // Breakpoints
-$desktop-breakpoint: 55rem;
+$desktop-breakpoint: 45rem;

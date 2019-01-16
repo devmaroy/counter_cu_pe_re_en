@@ -1,0 +1,47 @@
+/*------------------------------------*\
+    # Button
+\*------------------------------------*/
+
+.button {
+    border: none;
+    outline: none;
+    padding: $m-size;
+    background: $off-green;
+    color: $light-green;
+    box-shadow: 0 .3rem .6rem rgba( 0, 0, 0, 0.16 ), 0 .3rem .6rem rgba( 0, 0, 0, 0.23 );
+
+    transition: all 200ms ease-in-out;
+
+    &:hover,
+    &:focus {
+        background: darken( $off-green, 10% );
+    }
+}
+
+.button--link {
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    font-size: $m-size;
+
+    &:hover,
+    &:focus {
+        background: none;
+        color: darken( $light-green, 10% );
+    }
+}
+
+
+
+
+
+
+// padding: $l-size; // button
+// font-size: 2rem;  // button
+
+// padding: $xl-size; // button media
+// font-size: 5rem; // button media
+
+// button--link // media a nebo to dej na cely counter
+// font-size: $l-size;

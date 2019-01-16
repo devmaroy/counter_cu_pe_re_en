@@ -12,12 +12,14 @@ html {
 }
 
 ::selection {
-    background: pink;
+    background: #AAFCB8;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     font-size: $m-size;
+    background: $green;
+    color: $white;
 }
 
 button {
@@ -26,4 +28,20 @@ button {
 
 button:disabled {
     cursor: default;
+}
+
+.app-body {
+    display: flex;
+    justify-content: space-between;
+    margin: $l-size 0 $l-size 0;
+    padding: $l-size 0;
+    
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+@media ( min-width: $desktop-breakpoint ) {
+    .app-body {
+        align-items: center;
+    }
 }

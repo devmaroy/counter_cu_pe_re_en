@@ -1,0 +1,60 @@
+/*------------------------------------*\
+    # Counter
+\*------------------------------------*/
+
+.counter {
+    text-align: center;
+}
+
+.counter__title {
+    font-family: 'Oswald', sans-serif;
+    font-size: $xl-size;
+    text-transform: uppercase;
+    text-shadow: .1rem .1rem .1rem #000, .3rem .3rem .5rem #000;
+    margin: $xl-size 0 $xl-size 0;
+}
+
+.counter__number {
+    font-family: 'Oswald', sans-serif;
+    font-size: $xl-size;
+    margin: 0;
+}
+
+.counter__control {
+    font-size: 2rem;
+    padding: $l-size;
+}
+
+/*
+@media ( min-width: $desktop-breakpoint ) {
+    .counter__control {
+        padding: $xl-size;
+        font-size: 5rem;
+    }
+}
+*/
+
+/*
+.counter {
+    text-align: center;
+}
+
+.counter__title {
+    font-family: 'Oswald', sans-serif;
+    font-size: $xl-size;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: .1rem .1rem .1rem #000, .3rem .3rem .5rem #000;
+}
+
+.counter__number {
+    font-family: 'Oswald', sans-serif;
+    font-size: $xl-size;
+}
+
+.latername {
+    display: flex;
+    justify-content: space-between;
+    margin: $xl-size 0 $m-size 0;
+}
+*/

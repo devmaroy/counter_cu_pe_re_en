@@ -34,11 +34,29 @@ export default class CounterApp extends React.Component {
 
     render() {
         return (
-            <div>
-                <h1>Counter: { this.state.count }</h1>
-                <button onClick={ this.handleAddOne }>+</button>
-                <button onClick={ this.handleMinusOne }>-</button>
-                <button onClick={ this.handleReset }>reset</button>
+            <div className="container counter">
+                <h1 className="counter__title">Counter</h1>
+                <div className="app-body">
+                    <button
+                        className="button counter__control"
+                        onClick={ this.handleAddOne }
+                    >
+                        +
+                    </button>
+                    <h2 className="counter__number">{ this.state.count }</h2>
+                    <button
+                        className="button counter__control"
+                        onClick={ this.handleMinusOne }
+                    >
+                        -
+                    </button>
+                </div>
+                <button
+                    className="button button--link"
+                    onClick={ this.handleReset }
+                >
+                    reset
+                </button>
             </div>
         )
     }
