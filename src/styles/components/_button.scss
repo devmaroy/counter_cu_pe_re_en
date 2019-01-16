@@ -6,15 +6,15 @@
     border: none;
     outline: none;
     padding: $m-size;
-    background: $off-green;
-    color: $light-green;
+    background: $blue;
+    color: $off-blue;
     box-shadow: 0 .3rem .6rem rgba( 0, 0, 0, 0.16 ), 0 .3rem .6rem rgba( 0, 0, 0, 0.23 );
 
     transition: all 200ms ease-in-out;
 
     &:hover,
     &:focus {
-        background: darken( $off-green, 10% );
+        background: darken( $blue, 15% );
     }
 }
 
@@ -24,24 +24,11 @@
     box-shadow: none;
     padding: 0;
     font-size: $m-size;
+    color: $gray;
 
     &:hover,
     &:focus {
         background: none;
-        color: darken( $light-green, 10% );
+        color: darken( $gray, 15% );
     }
 }
-
-
-
-
-
-
-// padding: $l-size; // button
-// font-size: 2rem;  // button
-
-// padding: $xl-size; // button media
-// font-size: 5rem; // button media
-
-// button--link // media a nebo to dej na cely counter
-// font-size: $l-size;
