@@ -11,7 +11,7 @@ For any questions feel free to contact me at me@mwardew.com
 
 <br />
 
-### Demo:  https://counter.mwardew.com/
+### Demo:  https://counter.mwardew.dev/
 
 <br />
 
