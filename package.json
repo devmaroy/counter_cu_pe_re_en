@@ -9,7 +9,7 @@
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
     "start": "node server/server.js",
-    "predeploy": "yarn run build:prod"
+    "heroku-postbuild": "yarn run build:prod"
   },
   "dependencies": {
     "autoprefixer": "9.4.5",
