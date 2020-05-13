@@ -1,30 +1,52 @@
-# Counter
+# **Counter**
+
+This project is based on **React**, **Flexbox** layout, **HTML5** and modern **CSS3** principes. You can modify and use this project or certain components if you wish
+
+
+<br>
+
 
 ![](screenshot.png)
 
-<br />
-Personal project based on React, Flexbox layout, HTML5 and modern CSS3 principes.
 
-You can modify and use this project or certain components if you wish.
+<br>
 
-For any questions feel free to contact me at hello@devmaroy.com
+## Installation ##
 
-<br />
+Use these commands to install the dependencies and start the server.
 
-## 🎉 Quick Start
-
-1.  **Clone from Github.**
+1. **Clone from Github**
 
     ```
-    git clone git@github.com:devmaroy/counter.git
+    $ git clone git@github.com:devmaroy/counter.git
     ```
+2. **Install dependencies**
+   ```
+   $ yarn install / npm install
+   ```
+3. **Navigate into your directory where you cloned repository**
+    ```
+    $ cd my-folder
+    ```
+4. **Start it up**
+    ```
+    Development:
+    $ npm run build:dev / yarn run build:dev
 
-  <br />
+    Production:
+    $ npm run build:prod / yarn run build:prod
+    ```
+<br>
+
+**Your site is now running at `http://localhost:9000`!**
 
 
-## 🤔 What's inside?
+<br>
 
-A quick look at the top-level files and directories you'll see in my Gatsby project.
+
+## Structure ##
+
+A quick look at the top-level files and directories you'll see in my project.
 
     .
     ├── css
@@ -38,7 +60,7 @@ A quick look at the top-level files and directories you'll see in my Gatsby proj
     ├── yarn.lock
     └── README.md
 
-<br />
+<br>
 
 1.  **`/public`**: Here you can find public files and favicon files.
  
@@ -56,11 +78,20 @@ A quick look at the top-level files and directories you'll see in my Gatsby proj
 
 8.  **`screenshot.png`**: Screenshot of the final website.
 
-9.  **`README.md`**: A text file containing useful reference information about project.
+9.  **`readme.md`**: A text file containing useful reference information about project.
 
-<br />
 
-## 🔗 Live Example - [https://counter-mmproj.netlify.com/](https://counter-mmproj.netlify.com/)
+<br>
 
-<br />
-<br />
+<hr>
+
+<br>
+
+###  Live example: 
+[counter-mmproj.netlify.com](https://counter-mmproj.netlify.com)
+
+<br>
+
+Created by **[@devmaroy](https://twitter.com/devmaroy)** feel free to contact me 
+
+e-mail: **[hello@devmaroy.com](hello@devmaroy.com)**
