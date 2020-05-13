@@ -96,7 +96,7 @@ A quick look at the top-level files and directories you'll see in my project.
 <br>
 
 ###  Live example: 
-[telljoke-mmproj.netlify.app](https://telljoke-mmproj.netlify.app)
+[counter-mmproj.netlify.app](https://counter-mmproj.netlify.app)
 
 <br>
 
