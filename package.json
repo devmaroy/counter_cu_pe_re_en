@@ -1,16 +1,11 @@
 {
   "name": "counter",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "Marek Matejovic",
-  "license": "MIT",
-  "scripts": {
-    "build:dev": "webpack",
-    "build:prod": "webpack -p --env production",
-    "dev-server": "webpack-dev-server",
-    "start": "node server/server.js",
-    "heroku-postbuild": "yarn run build:prod"
-  },
+  "private": true,
+  "license": "UNLICENSED",
+  "keywords": [],
+  "description": "Counter",
+  "version": "0.1.0",
+  "author": "Marek Matejovic <hello@devmaroy.com>",
   "dependencies": {
     "autoprefixer": "9.4.5",
     "babel-cli": "6.24.1",
@@ -31,7 +26,23 @@
     "sass-loader": "6.0.6",
     "style-loader": "0.18.2",
     "webpack": "3.1.0"
-  }, "devDependencies": {
+  },
+  "devDependencies": {
     "webpack-dev-server": "2.5.1"
+  },
+  "scripts": {
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
+    "dev-server": "webpack-dev-server",
+    "start": "node server/server.js",
+    "heroku-postbuild": "yarn run build:prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devmaroy/counter_cu_pe_re_en"
+  },
+  "bugs": {
+    "url": "https://github.com/devmaroy/counter_cu_pe_re_en/issues",
+    "email": "bugs@devmaroy.com"
   }
 }
